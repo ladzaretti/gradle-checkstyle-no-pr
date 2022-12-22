@@ -10,7 +10,6 @@
     {
       "matchDatasources": ["maven"],
       "matchPackageNames": ["com.puppycrawl.tools:checkstyle"],
-      "matchCurrentVersion": "8.25",
       "vulnerabilityAlert": true,
       "enabled": true,
       "ignoreUnstable": false,
