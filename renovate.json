@@ -9,6 +9,7 @@
     },
     {
       "matchDatasources": ["maven"],
+      "matchPackageNames": ["checkstyle"],
       "matchCurrentVersion": "8.25",
       "allowedVersions": "[8.38,)",
       "vulnerabilityAlert": true,
