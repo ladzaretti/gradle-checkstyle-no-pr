@@ -4,12 +4,11 @@
     "config:base"
   ],
   "enabledManagers": [
-		"maven",
-		"gradle",
 		"npm"
 	],
 	"packageRules": [
 		{
+			      "enabled": true,
 			"matchDatasources": [
 				"maven"
 			],
