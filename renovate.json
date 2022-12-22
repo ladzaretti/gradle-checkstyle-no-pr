@@ -4,11 +4,17 @@
     "config:base"
   ],
   "enabledManagers": [
-		"npm"
+		"maven"
 	],
 	"packageRules": [
 		{
-			      "enabled": true,
+			"matchPackageNames": [
+				"*"
+			],
+			"enabled": false,
+
+		}
+		{
 			"matchDatasources": [
 				"maven"
 			],
