@@ -9,7 +9,7 @@
     },
     {
       "matchDatasources": ["maven"],
-      "matchPackageNames": ["checkstyle"],
+      "matchPackageNames": ["com.puppycrawl.tools:checkstyle"],
       "matchCurrentVersion": "8.25",
       "allowedVersions": "[8.38,)",
       "vulnerabilityAlert": true,
